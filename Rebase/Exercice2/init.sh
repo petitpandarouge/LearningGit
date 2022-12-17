@@ -1,12 +1,5 @@
 #!/bin/bash
 
-cd ../../..
-rm -fr LearningGit-Rebase-Exercice2
-mkdir LearningGit-Rebase-Exercice2
-cd LearningGit-Rebase-Exercice2
-
-git init -b main
-git config --local core.autocrlf false
 touch program.txt
 echo "main" >> program.txt
 git add program.txt
@@ -31,8 +24,3 @@ git commit -m "commit 3"
 echo "commit 4" >> us2.txt
 git add us2.txt
 git commit -m "commit 4"
-
-currentDir=`pwd`
-currentWinDir="${currentDir/\/c/C:}"
-echo $currentWinDir
-$LOCALAPPDATA/fork/fork.exe $currentWinDir
