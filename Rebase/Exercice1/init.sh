@@ -21,3 +21,4 @@ git commit -m "commit 1"
 echo "commit 2" >> us3.txt
 git add us3.txt
 git commit -m "commit 2"
+git checkout main
