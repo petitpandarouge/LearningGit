@@ -1,6 +1,6 @@
 # LearningGit
 
-Un ensemble d'exercices pour se familiariser avec les commandes Git.
+Un ensemble d'exercices pour se familiariser avec les commandes Git dans Fork.
 
 ## Lancer un exercice
 
@@ -40,4 +40,4 @@ Switched to branch 'feature/US2'
  1 file changed, 1 insertion(+)
 ```
 
->NOTE : Les énoncés des exercices sont disponibles sous forme de READAME.md dans les répertoires de chacun des exercices.
+>NOTE : Les énoncés des exercices sont disponibles sous forme de README.md dans les répertoires de chacun des exercices.
