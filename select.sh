@@ -1,15 +1,23 @@
 #!/bin/bash
 
 echo "Veuillez sélectionner une commande git parmi les suivantes :"
-echo "  - rebase"
+for dirPath in ./*; do
+    if [ -d "$dirPath" ]; then
+        prefix="./"
+        dirName=${dirPath#"$prefix"}
+        echo "  - $dirName"
+    fi
+done
 read command
 
+# The user did not write anything.
 if [ -z "$command" ]
 then
     echo "ERREUR : La commande est introuvable!"
     exit
 fi
 
+# The directory does not exists.
 if [ ! -d ./$command ]
 then
     echo "ERREUR : La commande est introuvable!"
