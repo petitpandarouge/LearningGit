@@ -60,7 +60,7 @@
   <summary>Déplier pour visualiser une solution.</summary>
   
   ### Via l'UI
-  1. Rebase interactif de la branche feature/US3 sur la branche SP1
+  1. Rebase interactif de la branche feature/US3 sur la branche SP1.
 
   ![](https://github.com/petitpandarouge/LearningGit/blob/main/Rebase/Exercice1/Solution/Instruction3/Step1.png?raw=true)
   
@@ -68,7 +68,7 @@
 
   ![](https://github.com/petitpandarouge/LearningGit/blob/main/Rebase/Exercice1/Solution/Instruction3/Step2.png?raw=true)
 
-  3. Renommer le commit du dernier commit, conserver les commits initiaux dans la partir "description".
+  3. Renommer le commit du dernier commit, conserver les commits initiaux dans la partie "description".
 
   ![](https://github.com/petitpandarouge/LearningGit/blob/main/Rebase/Exercice1/Solution/Instruction3/Step3.png?raw=true)
 
@@ -77,19 +77,19 @@
 
   ![](https://github.com/petitpandarouge/LearningGit/blob/main/Rebase/Exercice1/Solution/Instruction3/Step5.png?raw=true)
 
-  3. Merge de la branche feature/US3 dans la branche SP1.
+  6. Merge de la branche feature/US3 dans la branche SP1.
 
   ![](https://github.com/petitpandarouge/LearningGit/blob/main/Rebase/Exercice1/Solution/Instruction3/Step6.png?raw=true)
 
-  3. Confirmer en laissant l'option par défaut.
+  7. Confirmer en laissant l'option par défaut.
 
   ![](https://github.com/petitpandarouge/LearningGit/blob/main/Rebase/Exercice1/Solution/Instruction3/Step7.png?raw=true)
 
-  3. Supprimer la branche feature/US3.
+  8. Supprimer la branche feature/US3.
 
   ![](https://github.com/petitpandarouge/LearningGit/blob/main/Rebase/Exercice1/Solution/Instruction3/Step8.png?raw=true)
 
-  3. Confirmer.
+  9. Confirmer.
 
   ![](https://github.com/petitpandarouge/LearningGit/blob/main/Rebase/Exercice1/Solution/Instruction3/Step9.png?raw=true)
 
